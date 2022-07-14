@@ -1,0 +1,6 @@
+Name|Java|Python
+Kaustubh|80|90
+Aman|91|87
+Ninad|78|71
+Parth|99|91
+Tejas|91|90
