@@ -7,6 +7,10 @@ print(kurtosis(x))
 hist(x)
 
 #2
+n.sample <- rnorm(n = 10000, mean = 55, sd = 4.5)
+skewness(n.sample)
+kurtosis(n.sample)
+hist(n.sample)
 
 #3
 v<-c(88, 95, 92, 97, 96, 97, 94, 86, 91, 95, 97, 88, 85, 76, 68)
@@ -22,8 +26,10 @@ print(kurtosis(duration))
 x1<-seq(0,12,by -1)
 pbinom(x1,12,0.2)
 
-#7
+#6
+pnorm(84, mean=72, sd=15.2, lower.tail=FALSE)
 
+#7
 #P(X=5)
 dbinom(5,7,0.3)
 #P(X<=3)
